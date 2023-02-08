@@ -1,5 +1,8 @@
+[![Release](https://github.com/Simoon-F/budibase-icon-button-with-tooltip/actions/workflows/release.yml/badge.svg)](https://github.com/Simoon-F/budibase-icon-button-with-tooltip/actions/workflows/release.yml)
+[![MIT License](https://img.shields.io/npm/l/react-native-tab-view.svg?style=flat-square)](https://github.com/Simoon-F/budibase-icon-button-with-tooltip/blob/master/LICENSE)
+
 # IconButtonWithTooltip
-This is a readme for your new Budibase plugin.
+This is an icon component with tooltips.
 
 
 ## Demo
