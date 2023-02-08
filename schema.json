@@ -2,8 +2,8 @@
     "type": "component",
     "metadata": {},
     "schema": {
-        "name": "IconButtonWithTooltip",
-        "friendlyName": "IconButtonWithTooltip",
+        "name": "budibase-component-icon-button-with-tooltip",
+        "friendlyName": "Icon Button With Tooltip",
         "description": "Icon component with tooltip",
         "icon": "Shapes",
         "settings": [
