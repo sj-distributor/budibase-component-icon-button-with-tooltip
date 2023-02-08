@@ -1,0 +1,66 @@
+{
+    "type": "component",
+    "metadata": {},
+    "schema": {
+        "name": "IconButtonWithTooltip",
+        "friendlyName": "IconButtonWithTooltip",
+        "description": "Icon component with tooltip",
+        "icon": "Shapes",
+        "settings": [
+            {
+                "key": "icon",
+                "type": "icon",
+                "label": "Icon",
+                "required": true,
+                "defaultValue": ""
+            },
+            {
+                "key": "iconSize",
+                "type": "select",
+                "label": "Size",
+                "options": [
+                    "XXS",
+                    "XS",
+                    "Small",
+                    "Medium",
+                    "Large",
+                    "XL",
+                    "2XL",
+                    "3XL",
+                    "4XL",
+                    "5XL",
+                    "6XL",
+                    "7XL",
+                    "8XL",
+                    "9XL",
+                    "10XL"
+                ],
+                "defaultValue": "XL"
+            },
+            {
+                "key": "iconColor",
+                "type": "color",
+                "label": "Color",
+                "defaultValue": ""
+            },
+            {
+                "key": "canTooltip",
+                "type": "boolean",
+                "label": "Tooltip",
+                "defaultValue": false
+            },
+            {
+                "key": "tooltipText",
+                "type": "text",
+                "label": "Tooltip Text",
+                "required": true,
+                "dependsOn": "canTooltip"
+            },
+            {
+                "key": "onClick",
+                "type": "event",
+                "label": "on Click"
+            }
+        ]
+    }
+}
