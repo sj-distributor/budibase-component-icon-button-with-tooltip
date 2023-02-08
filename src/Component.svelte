@@ -78,8 +78,8 @@
   }
 
   .tooltip {
-    left: -12px;
-    padding-top: 12px;
+    right: 33px;
+    bottom: 60px;
     visibility: hidden;
     position: absolute;
     transform-origin: 0px -4px;
@@ -115,7 +115,7 @@
     pointer-events: none;
     border-radius: 0 0 2px;
     box-sizing: border-box;
-    transform: translateY(-100%);
+    transform: translateY(100%) rotate(180deg);
   }
 
   .tooltip-arrow::before {
