@@ -1,6 +1,6 @@
 {
   "name": "budibase-icon-button-with-tooltip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Icon component with tooltip",
   "license": "MIT",
   "svelte": "index.js",
@@ -28,5 +28,8 @@
     "rollup-plugin-svg": "^2.0.0",
     "rollup-plugin-terser": "^7.0.2",
     "tar": "^6.1.11"
+  },
+  "author": {
+    "name": "Simon"
   }
 }
