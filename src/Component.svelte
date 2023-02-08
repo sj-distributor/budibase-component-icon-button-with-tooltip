@@ -37,7 +37,11 @@
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<div on:click={handleIconClick} use:styleable={$component.styles}>
+<div
+  class="container"
+  on:click={handleIconClick}
+  use:styleable={$component.styles}
+>
   <i
     style="color:{iconColor}"
     class="{icon} {IconSizeOptions[iconSize]} svelte-1ghy1wa icon-container"
@@ -59,6 +63,12 @@
 </div>
 
 <style>
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .icon-container {
     position: relative;
   }
