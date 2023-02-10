@@ -158,6 +158,7 @@
     min-height: 32px;
     padding: 6px 8px;
     text-align: start;
+    white-space: nowrap;
     border-radius: 6px;
     text-decoration: none;
     word-wrap: break-word;
