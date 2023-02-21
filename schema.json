@@ -59,7 +59,7 @@
             {
                 "key": "onClick",
                 "type": "event",
-                "label": "on Click"
+                "label": "On Click"
             }
         ]
     }
