@@ -19,29 +19,98 @@
                 "type": "select",
                 "label": "Size",
                 "options": [
-                    "XXS",
-                    "XS",
-                    "Small",
-                    "Medium",
-                    "Large",
-                    "XL",
-                    "2XL",
-                    "3XL",
-                    "4XL",
-                    "5XL",
-                    "6XL",
-                    "7XL",
-                    "8XL",
-                    "9XL",
-                    "10XL"
+                    {
+                        "label": "XXS",
+                        "value": "ri-xxs"
+                    },
+                    {
+                        "label": "XS",
+                        "value": "ri-xs"
+                    },
+                    {
+                        "label": "Small",
+                        "value": "ri-sm"
+                    },
+                    {
+                        "label": "Medium",
+                        "value": "ri-1x"
+                    },
+                    {
+                        "label": "Large",
+                        "value": "ri-lg"
+                    },
+                    {
+                        "label": "XL",
+                        "value": "ri-xl"
+                    },
+                    {
+                        "label": "2XL",
+                        "value": "ri-2x"
+                    },
+                    {
+                        "label": "3XL",
+                        "value": "ri-3x"
+                    },
+                    {
+                        "label": "4XL",
+                        "value": "ri-4x"
+                    },
+                    {
+                        "label": "5XL",
+                        "value": "ri-5x"
+                    },
+                    {
+                        "label": "6XL",
+                        "value": "ri-6x"
+                    },
+                    {
+                        "label": "7XL",
+                        "value": "ri-7x"
+                    },
+                    {
+                        "label": "8XL",
+                        "value": "ri-8x"
+                    },
+                    {
+                        "label": "9XL",
+                        "value": "ri-9x"
+                    },
+                    {
+                        "label": "10XL",
+                        "value": "ri-10x"
+                    }
                 ],
-                "defaultValue": "XL"
+                "defaultValue": "ri-xl"
             },
             {
                 "key": "iconColor",
                 "type": "color",
                 "label": "Color",
                 "defaultValue": ""
+            },
+            {
+                "key": "placement",
+                "type": "select",
+                "label": "Placement",
+                "options": [
+                    {
+                        "label": "Top",
+                        "value": "top"
+                    },
+                    {
+                        "label": "Right",
+                        "value": "right"
+                    },
+                    {
+                        "label": "Bottom",
+                        "value": "bottom"
+                    },
+                    {
+                        "label": "Left",
+                        "value": "left"
+                    }
+                ],
+                "defaultValue": "top"
             },
             {
                 "key": "canTooltip",
@@ -52,7 +121,7 @@
             {
                 "key": "tooltipText",
                 "type": "text",
-                "label": "Tooltip Text",
+                "label": "Tooltip Text (Maximum 31 characters)",
                 "required": true,
                 "dependsOn": "canTooltip"
             },
