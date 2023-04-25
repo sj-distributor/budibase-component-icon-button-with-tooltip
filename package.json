@@ -1,6 +1,6 @@
 {
   "name": "budibase-component-icon-button-with-tooltip",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Icon component with tooltip",
   "license": "MIT",
   "svelte": "index.js",
