@@ -41,12 +41,9 @@
 </div>
 
 <style>
-  .container {
-    cursor: pointer;
-  }
-
   .u-tooltip-showOnHover {
-    z-index: 1070;
+    z-index: 1;
+    cursor: pointer;
   }
 
   .icon-container:hover .spectrum-Tooltip.spectrum-Tooltip--top {
