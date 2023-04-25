@@ -41,6 +41,10 @@
 </div>
 
 <style>
+  .container {
+    cursor: pointer;
+  }
+
   .u-tooltip-showOnHover {
     z-index: 1070;
   }
