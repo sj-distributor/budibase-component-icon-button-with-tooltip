@@ -42,7 +42,6 @@
 
 <style>
   .u-tooltip-showOnHover {
-    z-index: 1;
     cursor: pointer;
   }
 
@@ -56,6 +55,7 @@
   }
 
   .spectrum-Tooltip {
+    z-index: 10;
     font-size: 14px;
     list-style: none;
     background: rgba(0, 0, 0, 0.85);
